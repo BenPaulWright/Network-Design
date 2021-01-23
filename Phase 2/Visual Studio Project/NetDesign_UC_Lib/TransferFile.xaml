@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="NetDesign_UC_Lib.TransferFile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetDesign_UC_Lib"
+             xmlns:matDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" Name="Root">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="NetDesignStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <local:FileDrop FileDropped="OnFileDropped" Margin="5"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="1">
+            <TextBlock Text="{Binding FileName, ElementName=Root}" FontStyle="Italic" VerticalAlignment="Center" Margin="5" Grid.Row="1"/>
+            <Viewbox Height="20">
+                <matDesign:PackIcon Style="{StaticResource IconButton}" Kind="Send" ToolTip="Send File" MouseDown="Send" IsEnabled="{Binding SendButtonEnabled, ElementName=Root}"/>
+            </Viewbox>
+        </StackPanel>
+    </Grid>
+</UserControl>

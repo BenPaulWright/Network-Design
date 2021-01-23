@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="NetDesign_UC_Lib.SettingsPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetDesign_UC_Lib"
+             mc:Ignorable="d" Name="Root">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Packet Size" Margin="5" DockPanel.Dock="Left"/>
+            <TextBox VerticalContentAlignment="Center" Background="Transparent" BorderBrush="Transparent" Text="{Binding ElementName=PacketSizeSlider, Path=Value}"/>
+            <TextBlock VerticalAlignment="Center" Margin="0,5,5,5" FontStyle="Italic" Text="B"/>
+        </StackPanel>
+
+        <DockPanel Grid.Column="1">
+            <TextBlock DockPanel.Dock="Left" VerticalAlignment="Center" Margin="5">
+                <Run Text="{Binding Minimum, ElementName=PacketSizeSlider}"/>
+                <Run Text="B"/>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Right" VerticalAlignment="Center" Margin="5">
+                <Run Text="{Binding Maximum, ElementName=PacketSizeSlider}"/>
+                <Run Text="B"/>
+            </TextBlock>
+
+            <Slider x:Name="PacketSizeSlider" Minimum="512" Maximum="2048" Value="{Binding PacketSize, ElementName=Root}" MinWidth="150" Margin="5"/>
+        </DockPanel>
+
+        <!--
+        <TextBlock Text="Maximum File Size" Grid.Row="1" Margin="5"/>
+        <DockPanel Grid.Column="1" Grid.Row="1">
+            <TextBlock Text="MiB" DockPanel.Dock="Right" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding MaxFileSize, ElementName=Root}" Margin="5" TextAlignment="Right" Background="Transparent" BorderBrush="Transparent"/>
+        </DockPanel>
+
+        <TextBlock Text="Minimum File Size" Grid.Row="2" Margin="5"/>
+        <DockPanel Grid.Column="1" Grid.Row="2">
+            <TextBlock Text="MiB" DockPanel.Dock="Right" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding MinFileSize, ElementName=Root}" Margin="5" TextAlignment="Right" Background="Transparent" BorderBrush="Transparent"/>
+        </DockPanel>
+        -->
+    </Grid>
+</UserControl>

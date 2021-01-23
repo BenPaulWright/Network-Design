@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="NetDesign_UC_Lib.PacketCorruptionOptions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetDesign_UC_Lib"
+             mc:Ignorable="d" Name="Root">
+    <StackPanel>
+        <CheckBox Content="Corrupt Ack Packets" Margin="3" VerticalContentAlignment="Center"
+                  IsChecked="{Binding packetErrorInfo.AckCorruptionEnabled, ElementName=Root}"/>
+        <DockPanel Margin="3">
+            <TextBox DockPanel.Dock="Left" VerticalAlignment="Center"
+                     Background="Transparent" BorderBrush="Transparent"
+                     Text="{Binding Path=Value, ElementName=CC1, StringFormat=F2}"
+                     IsEnabled="{Binding packetErrorInfo.AckCorruptionEnabled, ElementName=Root}"/>
+            <Slider Minimum="0" Maximum="1" Name="CC1" Margin="5,0,0,0"
+                    TickFrequency="0.01" IsSnapToTickEnabled="True"
+                    Value="{Binding packetErrorInfo.AckCorruptionChance, ElementName=Root}"
+                    IsEnabled="{Binding packetErrorInfo.AckCorruptionEnabled, ElementName=Root}"/>
+        </DockPanel>
+
+        <CheckBox Content="Corrupt Data Packets" Margin="3" VerticalContentAlignment="Center"
+                  IsChecked="{Binding packetErrorInfo.DataCorruptionEnabled, ElementName=Root}"/>
+        <DockPanel Margin="3">
+            <TextBox DockPanel.Dock="Left" VerticalAlignment="Center"
+                     Background="Transparent" BorderBrush="Transparent"
+                     Text="{Binding Path=Value, ElementName=CC2, StringFormat=F2, UpdateSourceTrigger=PropertyChanged}"
+                     IsEnabled="{Binding packetErrorInfo.DataCorruptionEnabled, ElementName=Root}"/>
+            <Slider Minimum="0" Maximum="1" Name="CC2" Margin="5,0,0,0"
+                    TickFrequency="0.01" IsSnapToTickEnabled="True"
+                    Value="{Binding packetErrorInfo.DataCorruptionChance, ElementName=Root}"
+                    IsEnabled="{Binding packetErrorInfo.DataCorruptionEnabled, ElementName=Root}"/>
+        </DockPanel>
+
+        <CheckBox Content="Drop Ack Packets" Margin="3" VerticalContentAlignment="Center"
+                  IsChecked="{Binding packetErrorInfo.AckDropEnabled, ElementName=Root}"/>
+        <DockPanel Margin="3">
+            <TextBox DockPanel.Dock="Left" VerticalAlignment="Center"
+                     Background="Transparent" BorderBrush="Transparent"
+                     Text="{Binding Path=Value, ElementName=CC3, StringFormat=F2}"
+                     IsEnabled="{Binding packetErrorInfo.AckDropEnabled, ElementName=Root}"/>
+            <Slider Minimum="0" Maximum="1" Name="CC3" Margin="5,0,0,0"
+                    TickFrequency="0.01" IsSnapToTickEnabled="True"
+                    Value="{Binding packetErrorInfo.AckDropChance, ElementName=Root}"
+                    IsEnabled="{Binding packetErrorInfo.AckDropEnabled, ElementName=Root}"/>
+        </DockPanel>
+
+        <CheckBox Content="Drop Data Packets" Margin="3" VerticalContentAlignment="Center"
+                  IsChecked="{Binding packetErrorInfo.DataDropEnabled, ElementName=Root}"/>
+        <DockPanel Margin="3">
+            <TextBox DockPanel.Dock="Left" VerticalAlignment="Center"
+                     Background="Transparent" BorderBrush="Transparent"
+                     Text="{Binding Path=Value, ElementName=CC4, StringFormat=F2}"
+                     IsEnabled="{Binding packetErrorInfo.DataDropEnabled, ElementName=Root}"/>
+            <Slider Minimum="0" Maximum="1" Name="CC4" Margin="5,0,0,0"
+                    TickFrequency="0.01" IsSnapToTickEnabled="True"
+                    Value="{Binding packetErrorInfo.DataDropChance, ElementName=Root}"
+                    IsEnabled="{Binding packetErrorInfo.DataDropEnabled, ElementName=Root}"/>
+        </DockPanel>
+    </StackPanel>
+</UserControl>

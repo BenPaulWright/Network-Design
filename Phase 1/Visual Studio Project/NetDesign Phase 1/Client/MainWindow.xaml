@@ -1,0 +1,55 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Client" Height="450" Width="300">
+    <DockPanel>
+        <GroupBox DockPanel.Dock="Top">
+            <GroupBox.Header>
+                <TextBlock Text="Socket" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel>
+                <TextBlock Text="Ip" Margin="3"/>
+                <ComboBox Margin="3" SelectedItem="{Binding Ip}" Name="IpComboBox"/>
+                <TextBlock Text="Port" Margin="3"/>
+                <TextBox Margin="3" Text="{Binding Port}"/>
+                <TextBlock Text="Message" Margin="3"/>
+                <DockPanel>
+                    <Button Content="Send" Click="Send" Padding="5,1" DockPanel.Dock="Right" Margin="3"/>
+                    <TextBox Margin="3" Text="{Binding Message}"/>
+                </DockPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox DockPanel.Dock="Top">
+            <GroupBox.Header>
+                <TextBlock Text="File" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel>
+                <TextBlock Margin="3">
+                    <Run Text="Name:"/>
+                    <Run Text="{Binding FileName}"/>
+                </TextBlock>
+                <TextBlock Margin="3">
+                    <Run Text="Size:"/>
+                    <Run Text="{Binding FileSize}"/>
+                </TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Open File" Click="OpenFile" Padding="5,1" Margin="3"/>
+                    <Button Content="Send" IsEnabled="{Binding IsSendFileEnabled}" Click="SendFile" Padding="5,1" Margin="3"/>
+                    <TextBlock Text="Max Size = 128 KiB" Margin="3" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox DockPanel.Dock="Top">
+            <GroupBox.Header>
+                <TextBlock Text="Data" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <TextBox IsEnabled="False" Margin="3" Text="{Binding MessageLog}"/>
+        </GroupBox>
+    </DockPanel>
+</Window>

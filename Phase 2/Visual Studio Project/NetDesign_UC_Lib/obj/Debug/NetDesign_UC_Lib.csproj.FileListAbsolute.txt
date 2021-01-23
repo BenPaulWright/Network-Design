@@ -1,0 +1,74 @@
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.dll
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.pdb
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\EndPointSelector.g.cs
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib_MarkupCompile.cache
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib_MarkupCompile.lref
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\EndPointSelector.baml
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.g.resources
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.Properties.Resources.resources
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csproj.GenerateResource.cache
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csproj.CoreCompileInputs.cache
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.dll
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.pdb
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\FileDrop.g.cs
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\FileSelector.g.cs
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\FileDrop.baml
+C:\Users\benwb\source\repos\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\FileSelector.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\MaterialDesignColors.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\MaterialDesignColors.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\EndPointSelector.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\FileDrop.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\TcpLog.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\TransferFile.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib_MarkupCompile.cache
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib_MarkupCompile.lref
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\EndPointSelector.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\FileDrop.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesignStyles.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\TcpLog.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\TransferFile.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.g.resources
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.Properties.Resources.resources
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csproj.GenerateResource.cache
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csproj.CopyComplete
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\SettingsPanel.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\SettingsPanel.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.dll.CodeAnalysisLog.xml
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.dll.lastcodeanalysissucceeded
+C:\Users\benwb\Documents\Net_Design\NetDesign Phase 2\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csprojAssemblyReference.cache
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\NetDesign_UC_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csprojAssemblyReference.cache
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\EndPointSelector.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\FileDrop.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\SettingsPanel.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\TcpLog.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\TransferFile.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib_MarkupCompile.cache
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib_MarkupCompile.lref
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\EndPointSelector.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\FileDrop.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesignStyles.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\SettingsPanel.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\TcpLog.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\TransferFile.baml
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.g.resources
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.Properties.Resources.resources
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csproj.GenerateResource.cache
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.csproj.CopyComplete
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\obj\Debug\NetDesign_UC_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\MaterialDesignColors.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\MaterialDesignColors.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\benwb\Documents\Net_Design\NetDesign_UC_Lib\bin\Debug\MaterialDesignThemes.Wpf.xml

@@ -1,0 +1,64 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        xmlns:uc="clr-namespace:NetDesign_UC_Lib;assembly=NetDesign_UC_Lib"
+        mc:Ignorable="d"
+        Title="Client" Height="650" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Margin="3">
+            <GroupBox.Header>
+                <TextBlock Text="Socket" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel>
+                <uc:EndPointSelector Name="SocketSelector" Ip="{Binding Ip}" Port="{Binding Port}"/>
+                <Button Content="Open Socket" HorizontalAlignment="Left" Padding="3" Click="OpenSocket"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Margin="3" Grid.Column="1">
+            <GroupBox.Header>
+                <TextBlock Text="Target" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <uc:EndPointSelector Name="TargetSelector" Ip="{Binding RemoteIp}" Port="{Binding RemotePort}"/>
+        </GroupBox>
+
+        <GroupBox Grid.Row="1" Grid.ColumnSpan="2">
+            <GroupBox.Header>
+                <TextBlock Text="Corruption" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <uc:PacketCorruptionOptions Name="PacketCorruptor"
+                                        AckPacketCorruptionChance="{Binding AckPacketCorruptionChance}"
+                                        DataPacketCorruptionChance="{Binding DataPacketCorruptionChance}"
+                                        AckPacketCorruptionEnabled="{Binding AckPacketCorruptionEnabled}"
+                                        DataPacketCorruptionEnabled="{Binding DataPacketCorruptionEnabled}"/>
+        </GroupBox>
+
+        <GroupBox Margin="3" Grid.Row="2" Grid.ColumnSpan="2">
+            <GroupBox.Header>
+                <TextBlock Text="Send Files" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <uc:TransferFile x:Name="TransferFileUserControl" SendButtonClicked="TransferFile_SendButtonClicked" SendPercentage="{Binding PacketSendPercentage}"/>
+        </GroupBox>
+
+        <GroupBox Margin="3" Grid.Row="3" Grid.ColumnSpan="2">
+            <GroupBox.Header>
+                <TextBlock Text="Log" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <uc:TcpLog Name="Log"/>
+        </GroupBox>
+    </Grid>
+</Window>

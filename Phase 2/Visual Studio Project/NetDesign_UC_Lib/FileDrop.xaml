@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="NetDesign_UC_Lib.FileDrop"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetDesign_UC_Lib"
+             xmlns:matDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="200" Drop="DropFile" DragEnter="FileDragEnter" DragLeave="FileDragLeave" AllowDrop="True" Background="WhiteSmoke" Name="Root">
+    <Border BorderThickness="5">
+        <Border.BorderBrush>
+            <VisualBrush>
+                <VisualBrush.Visual>
+                    <Rectangle StrokeDashArray="6 3" Stroke="Gray" StrokeThickness="3"
+                  Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type Border}}, Path=ActualWidth}"
+                  Height="{Binding RelativeSource={RelativeSource AncestorType={x:Type Border}}, Path=ActualHeight}"/>
+                </VisualBrush.Visual>
+            </VisualBrush>
+        </Border.BorderBrush>
+        <StackPanel VerticalAlignment="Center">
+            <Viewbox Height="40">
+                <matDesign:PackIcon Kind="Upload" Foreground="{Binding FileValidBrush, ElementName=Root}"/>
+            </Viewbox>
+            <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Text="Drag and drop a file" Foreground="{Binding FileValidBrush, ElementName=Root}"/>
+        </StackPanel>
+    </Border>
+</UserControl>

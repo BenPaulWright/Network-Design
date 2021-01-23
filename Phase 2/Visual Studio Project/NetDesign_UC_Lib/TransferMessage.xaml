@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="NetDesign_UC_Lib.TransferMessage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetDesign_UC_Lib"
+             mc:Ignorable="d" Name="Root">
+    <StackPanel>
+        <GroupBox Header="Send" Padding="0,5,0,0">
+            <StackPanel>
+                <TextBox Text="{Binding Message, ElementName=Root}"/>
+                <Button Content="Send" Margin="5"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Receive" Padding="0,5,0,0">
+            <StackPanel>
+                <Button Content="Receive" Margin="5"/>
+                <TextBlock Text="{Binding Message}"/>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</UserControl>

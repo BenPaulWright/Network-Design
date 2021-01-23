@@ -1,0 +1,46 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+        xmlns:uc="clr-namespace:NetDesign_UC_Lib;assembly=NetDesign_UC_Lib"
+        mc:Ignorable="d"
+        Title="Client" Height="450" Width="600">
+    <DockPanel>
+        <UniformGrid DockPanel.Dock="Top" Rows="1">
+            <GroupBox DockPanel.Dock="Top">
+                <GroupBox.Header>
+                    <TextBlock Text="Socket" FontWeight="Bold"/>
+                </GroupBox.Header>
+                <StackPanel>
+                    <uc:EndPointSelector Ip="{Binding Ip}" Port="{Binding Port}"/>
+                    <Button Content="Open Socket" HorizontalAlignment="Left" Padding="3" Click="OpenSocket"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox DockPanel.Dock="Top">
+                <GroupBox.Header>
+                    <TextBlock Text="Target" FontWeight="Bold"/>
+                </GroupBox.Header>
+                <uc:EndPointSelector Ip="{Binding RemoteIp}" Port="{Binding RemotePort}"/>
+            </GroupBox>
+        </UniformGrid>
+        <GroupBox DockPanel.Dock="Top">
+            <GroupBox.Header>
+                <TextBlock Text="Transfer File" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel>
+                <uc:TransferFile SendButtonClicked="TransferFile_SendButtonClicked"/>
+                <uc:SettingsPanel PacketSize="{Binding PacketSize}"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="3" Grid.ColumnSpan="2">
+            <GroupBox.Header>
+                <TextBlock Text="Log" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <uc:TcpLog x:Name="Log"/>
+        </GroupBox>
+    </DockPanel>
+</Window>

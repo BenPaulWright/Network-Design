@@ -1,0 +1,10 @@
+C:\Users\benwb\source\repos\Net_Design_Lib\bin\Debug\Net_Design_Lib.dll
+C:\Users\benwb\source\repos\Net_Design_Lib\bin\Debug\Net_Design_Lib.pdb
+C:\Users\benwb\source\repos\Net_Design_Lib\obj\Debug\Net_Design_Lib.csproj.CoreCompileInputs.cache
+C:\Users\benwb\source\repos\Net_Design_Lib\obj\Debug\Net_Design_Lib.dll
+C:\Users\benwb\source\repos\Net_Design_Lib\obj\Debug\Net_Design_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\Net_Design_Lib\bin\Debug\Net_Design_Lib.dll
+C:\Users\benwb\Documents\Net_Design\Net_Design_Lib\bin\Debug\Net_Design_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\Net_Design_Lib\obj\Debug\Net_Design_Lib.dll
+C:\Users\benwb\Documents\Net_Design\Net_Design_Lib\obj\Debug\Net_Design_Lib.pdb
+C:\Users\benwb\Documents\Net_Design\Net_Design_Lib\obj\Debug\Net_Design_Lib.csprojAssemblyReference.cache
